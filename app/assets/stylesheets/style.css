@@ -1,0 +1,21 @@
+.card-question{
+  display: flex;
+  margin: 10px;
+  height: fit-content;
+}
+.card-answer{
+  display: flex;
+  background-color: lightyellow;
+  margin: 10px;
+  height: fit-content;
+}
+.grey-box{
+  width: 10px;
+  background-color: lightgrey;
+}
+.writer{
+  font-style: italic;
+}
+.text-side{
+  margin: 10px;
+}

@@ -1,0 +1,17 @@
+<div class="card-question">
+  <div class="grey-box"></div>
+  <div class="text-side">
+    <%=params[:question]%>  <br>
+    <data value="writer"> - You</data>
+  </div>
+</div>
+
+<div class="card-answer">
+  <div class="grey-box"></div>
+  <div class="text-side">
+    <%=@answer%> <br>
+    <data value="writer"> - Your Coach</data>
+  </div>
+</div>
+
+<%= link_to "home", ask_path %>
